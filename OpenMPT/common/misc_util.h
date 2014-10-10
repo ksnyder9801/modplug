@@ -10,6 +10,7 @@
 
 #pragma once
 
+#include <algorithm>
 #include <limits>
 #include <string>
 #if defined(HAS_TYPE_TRAITS)
@@ -21,6 +22,8 @@
 #include <cstring>
 
 #include <time.h>
+
+
 
 
 OPENMPT_NAMESPACE_BEGIN
