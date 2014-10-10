@@ -526,6 +526,15 @@
     <ClCompile Include="..\common\mptIO.cpp">
       <Filter>Source Files\common</Filter>
     </ClCompile>
+    <ClCompile Include="mpt_vsti.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.cpp">
+      <Filter>Source Files\vst2.x</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\vstsdk2.4\public.sdk\source\vst2.x\audioeffectx.cpp">
+      <Filter>Source Files\vst2.x</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\soundlib\Loaders.h">
@@ -1029,6 +1038,18 @@
     <ClInclude Include="..\common\mptIO.h">
       <Filter>Header Files\common</Filter>
     </ClInclude>
+    <ClInclude Include="mpt_vsti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vstsdk2.4\public.sdk\source\vst2.x\aeffeditor.h">
+      <Filter>Source Files\vst2.x</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.h">
+      <Filter>Source Files\vst2.x</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vstsdk2.4\public.sdk\source\vst2.x\audioeffectx.h">
+      <Filter>Source Files\vst2.x</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="res\bitmap1.bmp">
@@ -1191,6 +1212,9 @@
     </Filter>
     <Filter Include="Source Files\pluginBridgeWrapper">
       <UniqueIdentifier>{c5ca412e-0120-4e25-a6c0-945eedd7a0de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vst2.x">
+      <UniqueIdentifier>{cdf16731-5b8c-48d2-b1ad-02e04f6404bb}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
